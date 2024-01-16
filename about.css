@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/white-elegant-texture-wallpaper_23-2148417584.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 0rem 4rem;
+    border: .2rem solid rgba(255,255,255, 0.5);
+    /* background-color: grey; */
+    /* margin: 2rem 0rem; */
+}
+nav ul{
+    display: flex;
+    /* transition: all 0.5s ease; */
+    align-items: center;
+}
+nav ul li{
+    /* transition: all 0.5s ease; */
+    list-style: none;
+}
+nav ul li a{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color:rgb(254, 7, 3)
+}
+nav ul li a:hover{
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 70, 70);
+    border-radius: 1rem;
+}
+nav a img{
+    width: 4rem;
+    height: 4rem;
+}
+.section{
+    width: 100%;
+    display: inline-block;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid orange; */
+    position: relative;
+}
+img{
+    width: 20rem;
+}
+.dp{
+    position: absolute;
+    top: 2rem;
+    display: inline-block;
+    width: 100%;
+    max-width:35%;
+    /* border: 2px solid green; */
+}
+.qualification{
+    display: inline-block;
+    width: 100%;
+    max-width: 65%;
+    /* border: 2px solid yellow; */
+    margin-left: 21rem;
+    top: 0;
+    position: absolute;
+}
+.qualification h2 img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.qualification pre img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.roll-in-right {
+	-webkit-animation: roll-in-right 1s ease-out both;
+	        animation: roll-in-right 1s ease-out both;
+}
+
+ @-webkit-keyframes roll-in-right {
+    0% {
+      -webkit-transform: translateX(800px) rotate(540deg);
+              transform: translateX(800px) rotate(540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-right {
+    0% {
+      -webkit-transform: translateX(800px) rotate(540deg);
+              transform: translateX(800px) rotate(540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
+  

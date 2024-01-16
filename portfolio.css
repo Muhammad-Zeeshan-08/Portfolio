@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+body{
+    animation: scroll 15s linear 1;
+    background-image: url(https://img.freepik.com/free-vector/white-elegant-texture-wallpaper_23-2148417584.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais);
+
+}
+@keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-100vh);
+    }
+    50% {
+      transform: translateY(-200vh);
+    }
+    75% {
+      transform: translateY(-300vh);
+    }
+    100% {
+      transform: translateY(-400vh);
+    }
+  }
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    padding: 0rem 4rem;
+    border: .2rem solid rgba(255,255,255, 0.5);
+    /* background-color: grey; */
+    /* margin: 2rem 0rem; */
+}
+
+nav ul {
+    display: flex;
+    /* transition: all 0.5s ease; */
+    align-items: center;
+}
+
+nav ul li {
+    /* transition: all 0.5s ease; */
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(254, 7, 3);
+}
+
+nav ul li a:hover {
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 70, 70);
+    border-radius: 1rem;
+}
+
+nav a img {
+    width: 4rem;
+    height: 4rem;
+}
+.section h3{
+    text-align: center;
+    color: rgb(242, 70, 70);
+}
+.section p{
+    font-weight: 200;
+    text-align: center;
+}
+.img1{
+    width: 52rem;
+    height: 20rem;
+}
+.img2{
+    margin-left: 12rem;
+    width: 28rem;
+    height: 20rem;
+}
+.img3{
+    margin-left: 17rem;
+    width: 18rem;
+    height: 22rem;
+}
+.img4{
+    margin-left: 12rem;
+    width: 28rem;
+    height: 20rem;
+}
+.img5{
+    margin-left: 17rem;
+    width: 20rem;
+    height: 21rem;
+}
+.img6{
+    width: 52rem;
+    height: 22rem;
+}

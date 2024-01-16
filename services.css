@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/white-elegant-texture-wallpaper_23-2148417584.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 4rem;
+    border: .2rem solid rgba(255, 255, 255, );
+    /* background-color: grey; */
+    /* margin: 2rem 0rem; */
+}
+
+nav ul {
+    display: flex;
+    /* transition: all 0.9s ease; */
+    align-items: center;
+}
+
+nav ul li {
+    /* transition: all 0.9s ease; */
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(254, 7, 3)
+}
+
+nav ul li a:hover {
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 70, 70);
+    border-radius: 1rem;
+}
+
+nav a img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.main-head {
+    text-align: center;
+    width: 100%;
+}
+
+.img {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 6rem;
+}
+.W-D {
+    display: inline-block;
+    border: 1rem groove orangered;
+    text-align: justify;
+    max-width: 33%;
+    margin-left: .6rem;
+    color: rgb(103, 8, 8);
+}
+
+.W-D h1 {
+    text-align: center;
+    color: rgb(254, 7, 3);
+}
+
+.W-D:hover {
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 139, 70);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.UI-UX {
+    display: inline-block;
+    border: 1rem groove orangered;
+    text-align: justify;
+    max-width: 32%;
+    color: rgb(103, 8, 8);
+}
+
+.UI-UX h1 {
+    text-align: center;
+    color: rgb(254, 7, 3);
+}
+
+.UI-UX:hover {
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 139, 70);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.A-D {
+    display: inline-block;
+    border: 1rem groove orangered;
+    text-align: justify;
+    max-width: 32%;
+    color: rgb(103, 8, 8);
+}
+
+.A-D h1 {
+    text-align: center;
+    color: rgb(254, 7, 3);
+}
+
+.A-D:hover {
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 139, 70);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.section button {
+    color: rgb(41, 0, 8);
+    background-color: rgb(242, 70, 70);
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.section button img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.section button:hover {
+    color: rgb(81, 23, 2);
+    background-color: rgb(255, 128, 2);
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 24rem;
+}
+
+.blink-1 {
+    -webkit-animation: blink-1 0.6s both;
+    animation: blink-1 0.6s both;
+}
+
+@-webkit-keyframes blink-1 {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+@keyframes blink-1 {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
